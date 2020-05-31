@@ -1,15 +1,33 @@
 body{
     margin: 0;
+
 }
-/* Header */
+/* ---------- Header ---------- */
 header{
-    height: 20vh;
+    height: 100vh;
+    background-image: url(/Images/yes.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
 }
 
+header h1{
+    font-size: 50px;
+    margin-top: 40vh;
+}
+
+header h1, header h2{
+    color: white;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+/* Nav */
 nav{
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 3vh 0;
     background-color: rgb(93, 93, 255);
 }
 nav a{
@@ -22,13 +40,15 @@ nav a:hover{
     text-decoration: underline;
     color: rgb(0, 0, 139);
 }
-/* Main */
+
+
+/* ---------- Main ---------- */
 main{
     height: 60vh;
-    background: blue;
+    
 }
-/* Footer */
+/* ---------- Footer ---------- */
 footer{
     height: 20vh;
-    background-color: purple;
+   
 }
